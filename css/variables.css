@@ -1,15 +1,15 @@
 :root{
     --color-1:#FFFFFF; /*background*/
-    --color-1:#000000; /*text*/
+    --color-2:#000000; /*text*/
     --color-3:#EC441E; /*price text*/
     --color-4:hsla(251, 33%, 22%, 0.300); /*icons events near you*/
-    --color-4:hsla(251, 33%, 22%, 0.500); /*cards blur*/
-    --color-5:#333333; /*see all*/
-    --color-6:#761CBC; /*title*/
-    --color-7:#EDE9FF; /*music concert*/
-    --color-8:#FFF5D7; /*exhibition*/
-    --color-9:#FFECEC; /*stand up show*/
-    --color-9:#E4FFEA; /*theater*/
+    --color-5:hsla(251, 33%, 22%, 0.500); /*cards blur*/
+    --color-6:#333333; /*see all*/
+    --color-7:#761CBC; /*title*/
+    --color-8:#EDE9FF; /*music concert*/
+    --color-9:#FFF5D7; /*exhibition*/
+    --color-10:#FFECEC; /*stand up show*/
+    --color-11:#E4FFEA; /*theater*/
 }
 @font-face{
     font-family: "Inter-SemiB";

@@ -1,1 +1,119 @@
 @import url('variables.css');
+
+body {
+    background-color: hsla(0, 0%, 100%, 0.850);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 10px 10px;
+    margin: 0;
+}
+
+.NAV {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 10px 10px;
+    margin: 0;
+}
+
+.HEADER {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;
+    width: 100%;
+}
+
+.TITLE {
+    width: 100%;
+    font-family: "Inter-SemiB"; /* Fuente del título */
+    font-size: 30px; /* Tamaño del texto */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.find {
+    display: block;
+    color: var(--color-2); /* Color negro para "Find" */
+}
+.trending-events {
+    display: block;
+    color: var(--color-7); /* Color morado para "Trending Events" */
+}
+
+.SORT {
+    width: 100%;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #f8f8fc;
+    border-radius: 10px;
+    width: 100%;
+    height: 41px;
+    max-width: 600px;
+}
+.search-box .icon {
+    font-size: 20px;
+    color: #252525;
+    margin: 0 10px;
+}
+.search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    color: var(--color-2);
+    font-size: 12px;
+    font-family: "Inter-Regular";
+    background: transparent;
+}
+.search-box .filter {
+    cursor: pointer;
+}
+.category {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px; 
+    align-items: center;
+    width: 100%;
+    height: 35px;
+    font-family: "Inter-Regular";
+    color: var(--color-2);
+
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+.category::-webkit-scrollbar {
+    display: none;
+}
+.category button {
+    font-family: inherit; 
+    color: inherit; 
+    font-size: inherit;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    height: 35px;
+    padding: 0 15px;
+    flex-shrink: 0; /* Evita que los botones se reduzcan si no caben */
+}
+.category button:nth-child(1) { background-color: var(--color-8); }
+.category button:nth-child(2) { background-color: var(--color-9); }
+.category button:nth-child(3) { background-color: var(--color-10); }
+.category button:nth-child(4) { background-color: var(--color-11); }
+
+
+.TRENDING {
+    display: flex;
+    height: 100%;
+    background-color: lightslategray;
+}
+.NEAR {
+    display: flex;
+    height: 100%;
+    background-color: lightgray;
+}
