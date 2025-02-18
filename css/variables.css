@@ -10,6 +10,8 @@
     --color-9:#FFF5D7; /*exhibition*/
     --color-10:#FFECEC; /*stand up show*/
     --color-11:#E4FFEA; /*theater*/
+    --color-12:#706D6D; /*description*/
+    --color-13:#0092FC; /*read more*/
 }
 @font-face{
     font-family: "Inter-SemiB";
@@ -22,4 +24,8 @@
 @font-face{
     font-family: "DMSans";
     src: url(../font/Montserrat/static/DMSans_36pt-Regular.ttf);
+}
+@font-face{
+    font-family: "I-Medium";
+    src: url(../font/Montserrat/static/Inter_18pt-Medium.ttf);
 }

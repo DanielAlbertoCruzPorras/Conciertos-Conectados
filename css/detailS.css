@@ -5,7 +5,7 @@ body {
     height: 120vh;
     margin: 0;
 }
-
+/*==========================================================*/
 .top-img {
     top: 0px;
     width: 100%;
@@ -39,9 +39,9 @@ body {
     width: 20px;
 }
 .HEADER .image-box:hover {
-    transform: scale(1.2);
+    transform: scale(0.9);
 }
-
+/*==========================================================*/
 .main-info {
     position: absolute;
     top: 40vw;
@@ -57,6 +57,8 @@ body {
     flex-direction: column;
     text-align: left;
     justify-content: space-around;
+    flex-shrink: 0;
+    overflow: hidden;
 }
 .info {
     color: var(--color-2);
@@ -73,6 +75,20 @@ body {
     overflow: hidden;    /* Oculta el contenido que no cabe */
     text-overflow: ellipsis;    /* Agrega "..." al final del texto cortado */
 }
+.title {
+    font-family: "Inter-SemiB";
+    font-size: 14px;
+    margin: 0;
+    white-space: nowrap;    /**/
+    overflow: hidden;       /**/
+    text-overflow: ellipsis;/**/
+}
+.black {
+    color: var(--color-2); 
+}
+.purple {
+    color: var(--color-7); 
+}
 .location {
     display: flex;
     align-items: center;
@@ -85,8 +101,8 @@ body {
     font-family: "Inter-Regular";
     font-size: 12px;
     white-space: nowrap;    /**/
-    overflow: hidden;    /**/
-    text-overflow: ellipsis;    /**/
+    overflow: hidden;       /**/
+    text-overflow: ellipsis;/**/
 }
 .date {
     display: flex;
@@ -100,42 +116,128 @@ body {
     font-family: "Inter-Regular";
     font-size: 12px;
     white-space: nowrap;    /**/
-    overflow: hidden;    /**/
-    text-overflow: ellipsis;    /**/
+    overflow: hidden;       /**/
+    text-overflow: ellipsis;/**/
 }
 .participants {
     display: flex;
+    height: 40px;
+    align-items: center;
+    flex-shrink: 0;
 }
 .participants p {
     padding-left: 15px;
+    margin: 0;
+    font-family: "I-Medium";
+    font-size: 12px;
+    white-space: nowrap;    /**/
+    overflow: hidden;       /**/
+    text-overflow: ellipsis;/**/
 }
 .img-group {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;  /*Para superponer las imagenes*/
+    position: relative;  
     width: 60px;
 }
-.imagen {/*
-width: 150px;
-height: 150px; */
+.imagen {
 border-radius: 50%; 
-object-fit: cover; /* Asegura que la imagen cubra todo el círculo sin deformarse */
-position: absolute; /* Para superponer las imágenes */
-z-index: 1; /* Control de superposición */
+object-fit: cover; 
+position: absolute;
 }
 .imagen:nth-child(1) {
 left: 0;
 z-index: 1;
 }
-
 .imagen:nth-child(2) {
 left: 25%; 
 z-index: 2;
 }
-
 .imagen:nth-child(3) {
 left: 50%; 
 z-index: 3;
 }
-  
+/*==========================================================*/
+.description {
+    position: absolute;
+    top: 85vw;
+    left: 10%;
+    width: 80%;
+    height: 40vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "I-Medium";
+    color: var(--color-2);
+}
+.text {
+    font-size: 12px;
+    font-family: "DMSans";
+    color: var(--color-12);
+    line-height: 18px;
+    height: 100%;
+    margin-bottom: 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6; /* número de líneas antes del "..." 
+    (resalta porque es una propiedad específica para navegadores basados en WebKit)*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.4; /* altura del interlineado */
+    max-height: calc(1.5em * 6);
+}
+.read-more {
+    color: var(--color-13);
+    text-decoration: none;
+}
+.read-more:hover {
+    text-decoration: underline;
+}
+/*==========================================================*/
+
+/*==========================================================*/
+.ticket-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: white; /* Fondo para diferenciarlo del contenido */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Sombra superior */
+}
+.price p {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Inter-Regular";
+    color: var(--color-2);
+}
+.price strong {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Inter-SemiB";
+    color: var(--color-2);
+}
+.buy-ticket {
+    background: var(--color-7);
+    color: var(--color-1);
+    padding: 10px 20px;
+    font-family: "I-Medium";
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.buy-ticket:hover {
+    transform: scale(0.9);
+}
