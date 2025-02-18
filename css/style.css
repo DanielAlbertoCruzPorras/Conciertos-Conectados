@@ -258,7 +258,6 @@ body {
     gap: 5px;
     width: 60%;
 }
-
 .info h3 {
     font-family: "Inter-SemiB";
     font-size: 12px;
@@ -270,16 +269,13 @@ body {
     text-overflow: ellipsis;
     /* Agrega "..." al final del texto cortado */
 }
-
 .location {
     display: flex;
     align-items: center;
 }
-
 .location .icon {
     margin-right: 3px;
 }
-
 .location p {
     margin: 0;
     font-family: "Inter-Regular";
@@ -291,16 +287,13 @@ body {
     text-overflow: ellipsis;
     /**/
 }
-
 .date {
     display: flex;
     align-items: center;
 }
-
 .date .icon {
     margin-right: 3px;
 }
-
 .date p {
     margin: 0;
     font-family: "Inter-Regular";
@@ -312,7 +305,6 @@ body {
     text-overflow: ellipsis;
     /**/
 }
-
 .price {
     width: 80px;
     color: var(--color-1);
@@ -323,12 +315,10 @@ body {
     text-overflow: ellipsis;
     /**/
 }
-
 .price p {
     font-family: "Inter-Regular";
     font-size: 10px;
 }
-
 .price h3 {
     font-family: "Inter-Regular";
     font-size: 12px;
@@ -409,12 +399,9 @@ body {
     font-family: "Inter-SemiB";
     font-size: 10px;
     margin: 0;
-    white-space: nowrap;
-    /* Evita que el texto se divida en varias líneas */
-    overflow: hidden;
-    /* Oculta el contenido que no cabe */
-    text-overflow: ellipsis;
-    /* Agrega "..." al final del texto cortado */
+    white-space: nowrap;    /* Evita que el texto se divida en varias líneas */
+    overflow: hidden;    /* Oculta el contenido que no cabe */
+    text-overflow: ellipsis;    /* Agrega "..." al final del texto cortado */
 }
 
 .location2 {
@@ -430,12 +417,9 @@ body {
     margin: 0;
     font-family: "Inter-Regular";
     font-size: 10px;
-    white-space: nowrap;
-    /**/
-    overflow: hidden;
-    /**/
-    text-overflow: ellipsis;
-    /**/
+    white-space: nowrap;    /**/
+    overflow: hidden;    /**/
+    text-overflow: ellipsis;    /**/
 }
 
 .date2 {
@@ -451,23 +435,17 @@ body {
     margin: 0;
     font-family: "Inter-Regular";
     font-size: 10px;
-    white-space: nowrap;
-    /**/
-    overflow: hidden;
-    /**/
-    text-overflow: ellipsis;
-    /**/
+    white-space: nowrap;    /**/
+    overflow: hidden;    /**/
+    text-overflow: ellipsis;    /**/
 }
 
 .price2 {
     width: 100%;
     color: var(--color-2);
-    white-space: nowrap;
-    /**/
-    overflow: hidden;
-    /**/
-    text-overflow: ellipsis;
-    /**/
+    white-space: nowrap;    /**/
+    overflow: hidden;    /**/
+    text-overflow: ellipsis;    /**/
 }
 
 .price2 h3 {
