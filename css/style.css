@@ -50,6 +50,7 @@ body {
     display: block;
     color: var(--color-7);
 }
+/*======*/
 .SORT {
     width: 100%;
 }
@@ -346,6 +347,11 @@ body {
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+.TOP:hover{
+    transform: scale(0.95);
 }
 .TOP .image-box {
     height: 28vw;

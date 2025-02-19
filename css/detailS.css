@@ -6,17 +6,6 @@ body {
     margin: 0;
 }
 /*==========================================================*/
-.top-img {
-    top: 0px;
-    width: 100%;
-    height: 60vw;
-    background-image: url('../storage/img/COLDPLAY-WT.jpg');
-    background-size: cover;
-    background-position: center 10%; /*posiciona la imagen*/
-    background-repeat: no-repeat;   /* Evita que la imagen se repita */
-    background-attachment: scroll; /* Fija la imagen al hacer scroll */
-    flex-shrink: 0;               /* Evita que se reduzca si no cabe */
-}
 .HEADER {
     display: flex;
     justify-content: space-between;

@@ -74,11 +74,17 @@ body {
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0;
+    white-space: nowrap;    /**/
+    overflow: hidden;       /**/
+    text-overflow: ellipsis;/**/
 }
 .ticket-body .event-info {
     font-size: 14px;
     color: var(--color-12);
     margin-bottom: 10px;
+    white-space: nowrap;    /**/
+    overflow: hidden;       /**/
+    text-overflow: ellipsis;/**/
 }
 .ticket-details {
     display: flex;
@@ -89,6 +95,9 @@ body {
 .detail {
     width: 48%;
     margin-bottom: 10px;
+    white-space: nowrap;    /**/
+    overflow: hidden;       /**/
+    text-overflow: ellipsis;/**/
 }
 .detail span {
     font-size: 12px;
