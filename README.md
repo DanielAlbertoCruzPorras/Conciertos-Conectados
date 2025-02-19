@@ -42,6 +42,7 @@ CONCIERTOS-CO/
   - Presentan información detallada sobre el evento, como la fecha, ubicación y opciones de compra de boletos.
 
 - **Página de Gestión de Boletos (`tickets.html`)**
+  - Accede a travez del boton "tickets" en el carrusel de la seccion "NAV">"SORT">"category" en index.html --> home
   - Permite a los usuarios administrar sus boletos de eventos.
   - Puede utilizar `tickets.css` para su diseño específico.
 
