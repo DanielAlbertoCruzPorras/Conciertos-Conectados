@@ -1,4 +1,4 @@
-# Proyecto: Conciertos-Co
+# Proyecto: Conciertos-Conectados
 
 ## Descripción
 Este proyecto es una página web para la gestión de eventos musicales. La plataforma está diseñada exclusivamente para dispositivos móviles y permite a los usuarios explorar eventos disponibles y acceder a detalles específicos de cada uno al tocar la tarjeta correspondiente.
