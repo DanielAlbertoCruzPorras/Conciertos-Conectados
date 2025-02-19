@@ -1,0 +1,124 @@
+@import url('variables.css');
+
+body {
+    background: linear-gradient(135deg, #91B5FD, #F0DDFF);
+    height: 100vh;
+    margin: 0;
+}
+
+/*==========================================================*/
+
+.HEADER {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.HEADER .image-box {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--color-15);
+    height: 20px;
+    width: 20px;
+}
+.HEADER .image-box:hover {
+    transform: scale(0.9);
+}
+
+/*==========================================================*/
+
+.TICKETS {
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 80vw;
+    height: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+.TICKETS::-webkit-scrollbar {
+    display: none;
+}
+.ticket {
+    background-color: var(--color-1);
+    font-family: "Inter-Regular", sans-serif;
+    color: var(--color-2);
+    border-radius: 20px;
+    width: 70vw;
+    padding: 15px;
+    flex-shrink: 0;
+    text-align: center;
+    overflow: hidden;
+}
+.ticket-header img {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+}
+.ticket-body {
+    text-align: left;
+}
+.ticket-body h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.ticket-body .event-info {
+    font-size: 14px;
+    color: var(--color-12);
+    margin-bottom: 10px;
+}
+.ticket-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+.detail {
+    width: 48%;
+    margin-bottom: 10px;
+}
+.detail span {
+    font-size: 12px;
+    color: var(--color-12);
+}
+.detail strong {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.dashed-line {
+    position: relative;
+    width: calc(100% + 40px);
+    margin-left: -20px;
+}
+.dashed-line img {
+    width: 100%;
+}
+
+
+.ticket-footer {
+    text-align: center;
+}
+.ticket-footer img {
+    width: 80%;
+    margin: 10px 0;
+}
+.ticket-footer p {
+    font-size: 12px;
+    color: var(--color-12);
+}

@@ -10,8 +10,11 @@
     --color-9:#FFF5D7; /*exhibition*/
     --color-10:#FFECEC; /*stand up show*/
     --color-11:#E4FFEA; /*theater*/
+    --color-14:#a6f0f383; /*tickets*/
     --color-12:#706D6D; /*description*/
     --color-13:#0092FC; /*read more*/
+    --color-15:hsla(0, 0%, 100%, 0.200); /*HEADER*/    
+    --color-16:hsla(0, 5%, 39%, 0.500); /*dashed*/
 }
 @font-face{
     font-family: "Inter-SemiB";

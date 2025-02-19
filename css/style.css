@@ -84,7 +84,7 @@ body {
     display: flex;
     gap: 10px;
     align-items: center;
-    width: 100vw;
+    width: 90vw;
     /*Tener presente para el ancho del carrusel*/
     height: 35px;
     font-family: "Inter-Regular";
@@ -109,6 +109,7 @@ body {
     height: 35px;
     padding: 0 15px;
     flex-shrink: 0;
+    transition: transform 0.2s ease-in-out;
     /* Evita que los botones se reduzcan si no caben */
 }
 .category button:nth-child(1) {
@@ -122,6 +123,12 @@ body {
 }
 .category button:nth-child(4) {
     background-color: var(--color-11);
+}
+.category button:nth-child(5) {
+    background-color: var(--color-14);
+}
+.category button:hover{
+    transform: scale(0.9);
 }
 
 /*==========================================================*/
@@ -166,7 +173,7 @@ body {
     white-space: nowrap;
     scrollbar-width: none;
     /* Ocultar scrollbar en Firefox */
-    width: 100vw;
+    width: 90vw;
     height: 100%;
 }
 .carousel::-webkit-scrollbar {
